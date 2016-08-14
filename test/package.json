@@ -1,0 +1,14 @@
+{
+  "name": "test nodert js wrapper",
+  "version": "0.1.0",
+  "description": "Generate NodeRT modules in order to use WinRT/UWP APIs directly from node.js",
+  "_nodert" : {
+    "modules" : [
+	  "windows.devices.geolocation",
+	  "windows.device.sensors"
+	]
+  },
+  "homepage": "https://github.com/NodeRT/NodeRT",
+  "author": "nadavbar <nadavbar@gmail.com> (http://www.nadavos.com)",
+  "license": "Apache-2.0"
+}
