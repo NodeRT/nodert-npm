@@ -18,7 +18,9 @@ npm install -g nodert
 
 Use the nodert package to generate NodeRT moduels on the fly!
 
-Usage: <b>nodert <command> [options]</b>
+Usage: 
+```
+nodert <command> [options]
 
 Commands:
   install  Installs the required NodeRT modules
@@ -29,10 +31,14 @@ Options:
   -o, --outdir   The output directory path
 
 Examples:
-  <b>nodert install</b> - Installs the NodeRT modules listed in the package.json file under the "_nodert.modules" path in the local node_modules directory
+  "nodert install"
+      Installs the NodeRT modules listed in the package.json file under the "_nodert.modules" 
+      path in the local node_modules directory
   
-  <b>nodert install -m  windows.devices.geolocation;windows.devices.sensors  -o C:\mydir\mycode</b> - Installs the listed NodeRT modules in the given output path
-  
+  "nodert install -m  windows.devices.geolocation;windows.devices.sensors  -o c:\mydir\mycode"
+  	Installs the windows.devices.geolocation and windows.devices.sensors NodeRT modules 
+  	under the path: c:\myrdir\mycode
+```  
  
 ###Install NodeRT modules using package.json
 
